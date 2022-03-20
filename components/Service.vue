@@ -1,10 +1,10 @@
 <template>
     <div class="flex flex-col items-center">
         <h1 class="text-2xl font-extrabold text-gray-900 sm:text-4xl md:text-4xl">
-            Our Service
+            Pelayanan Kami
         </h1>
         <p>kami menyediakan pelayan berikut</p>
-        <div class="grid grid-cols-5 gap-4 mt-7">
+        <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-7 mt-14 px-7">
             <ItemPoint v-for="item in services" :key="item.name" :service="item"/>
         </div>
     </div>

@@ -1,7 +1,9 @@
 <template>
-  <div class="flex flex-col space-y-8">
+  <div class="flex flex-col space-y-20">
     <Header />
     <Service />
+    <About />
+    <Document />
   </div>
 </template>
 
