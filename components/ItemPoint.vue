@@ -1,9 +1,8 @@
 <template>
-    <div class="shadow-md rounded-xl p-4 max-w-sm">
-        <div class="flex flex-col items-center">
-            <h2 class="font-extrabold text-gray-900">{{ service.name }}</h2>
-            <p class="text-center">{{ service.description }}</p>
-        </div>
+    <div class="group flex justify-center bg-white shadow-lg rounded-xl border border-blue-200 hover:bg-blue-200 z-10">
+        <h3 class="text-lg text-center font-semibold text-blue-500 p-4 group-hover:text-white">
+            {{ service }}
+        </h3>
     </div>
 </template>
 
